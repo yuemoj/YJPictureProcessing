@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50FA2FF01C9FC9D20064A537 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50FA2FEE1C9FC9D20064A537 /* Main.storyboard */; };
+		50FA2FF21C9FC9D20064A537 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50FA2FF11C9FC9D20064A537 /* Assets.xcassets */; };
+		50FA2FF51C9FC9D20064A537 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50FA2FF31C9FC9D20064A537 /* LaunchScreen.storyboard */; };
+		50FA30001C9FC9D20064A537 /* YJPictureProcessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FA2FFF1C9FC9D20064A537 /* YJPictureProcessTests.swift */; };
+		50FA300B1C9FC9D20064A537 /* YJPictureProcessUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FA300A1C9FC9D20064A537 /* YJPictureProcessUITests.swift */; };
+		50FA30201C9FCC850064A537 /* cancel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50FA301D1C9FCC850064A537 /* cancel@2x.png */; };
+		50FA30211C9FCC850064A537 /* ensure@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50FA301E1C9FCC850064A537 /* ensure@2x.png */; };
+		50FA30221C9FCC850064A537 /* ico_hand@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50FA301F1C9FCC850064A537 /* ico_hand@2x.png */; };
+		50FA30241C9FCCCA0064A537 /* rotating@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50FA30231C9FCCCA0064A537 /* rotating@2x.png */; };
+		50FA30311C9FD1440064A537 /* BasePublishController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FA302A1C9FD1440064A537 /* BasePublishController.swift */; };
+		50FA30321C9FD1440064A537 /* InPhotoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FA302B1C9FD1440064A537 /* InPhotoController.swift */; };
+		50FA30331C9FD1440064A537 /* PhotoDealController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FA302C1C9FD1440064A537 /* PhotoDealController.swift */; };
+		50FA30341C9FD1440064A537 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FA302D1C9FD1440064A537 /* ViewController.swift */; };
+		50FA30351C9FD1440064A537 /* InPhotoCllCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FA30301C9FD1440064A537 /* InPhotoCllCell.swift */; };
+		50FA30461C9FD2F00064A537 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FA30451C9FD2F00064A537 /* Constant.swift */; };
+		50FA30481C9FD4440064A537 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FA30471C9FD4440064A537 /* UIImage+Extension.swift */; };
+		50FA304C1C9FD46A0064A537 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 50FA304B1C9FD46A0064A537 /* UIView+Extension.m */; };
+		50FA304E1C9FD62B0064A537 /* SwiftColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FA304D1C9FD62B0064A537 /* SwiftColors.swift */; };
+		50FA30501C9FD7F40064A537 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FA304F1C9FD7F40064A537 /* AppDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		50FA2FFC1C9FC9D20064A537 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50FA2FDF1C9FC9D20064A537 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50FA2FE61C9FC9D20064A537;
+			remoteInfo = YJPictureProcess;
+		};
+		50FA30071C9FC9D20064A537 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50FA2FDF1C9FC9D20064A537 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50FA2FE61C9FC9D20064A537;
+			remoteInfo = YJPictureProcess;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		50FA2FE71C9FC9D20064A537 /* YJPictureProcess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YJPictureProcess.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50FA2FEF1C9FC9D20064A537 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		50FA2FF11C9FC9D20064A537 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		50FA2FF41C9FC9D20064A537 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		50FA2FF61C9FC9D20064A537 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50FA2FFB1C9FC9D20064A537 /* YJPictureProcessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YJPictureProcessTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50FA2FFF1C9FC9D20064A537 /* YJPictureProcessTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YJPictureProcessTests.swift; sourceTree = "<group>"; };
+		50FA30011C9FC9D20064A537 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50FA30061C9FC9D20064A537 /* YJPictureProcessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YJPictureProcessUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50FA300A1C9FC9D20064A537 /* YJPictureProcessUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YJPictureProcessUITests.swift; sourceTree = "<group>"; };
+		50FA300C1C9FC9D20064A537 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50FA301D1C9FCC850064A537 /* cancel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cancel@2x.png"; sourceTree = "<group>"; };
+		50FA301E1C9FCC850064A537 /* ensure@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ensure@2x.png"; sourceTree = "<group>"; };
+		50FA301F1C9FCC850064A537 /* ico_hand@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ico_hand@2x.png"; sourceTree = "<group>"; };
+		50FA30231C9FCCCA0064A537 /* rotating@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rotating@2x.png"; sourceTree = "<group>"; };
+		50FA302A1C9FD1440064A537 /* BasePublishController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasePublishController.swift; sourceTree = "<group>"; };
+		50FA302B1C9FD1440064A537 /* InPhotoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InPhotoController.swift; sourceTree = "<group>"; };
+		50FA302C1C9FD1440064A537 /* PhotoDealController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoDealController.swift; sourceTree = "<group>"; };
+		50FA302D1C9FD1440064A537 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		50FA30301C9FD1440064A537 /* InPhotoCllCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InPhotoCllCell.swift; sourceTree = "<group>"; };
+		50FA30451C9FD2F00064A537 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		50FA30471C9FD4440064A537 /* UIImage+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		50FA30491C9FD4690064A537 /* YJPictureProcess-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "YJPictureProcess-Bridging-Header.h"; path = "Utility/YJPictureProcess-Bridging-Header.h"; sourceTree = "<group>"; };
+		50FA304A1C9FD46A0064A537 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		50FA304B1C9FD46A0064A537 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		50FA304D1C9FD62B0064A537 /* SwiftColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftColors.swift; sourceTree = "<group>"; };
+		50FA304F1C9FD7F40064A537 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50FA2FE41C9FC9D20064A537 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50FA2FF81C9FC9D20064A537 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50FA30031C9FC9D20064A537 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50FA2FDE1C9FC9D20064A537 = {
+			isa = PBXGroup;
+			children = (
+				50FA2FE91C9FC9D20064A537 /* YJPictureProcess */,
+				50FA2FFE1C9FC9D20064A537 /* YJPictureProcessTests */,
+				50FA30091C9FC9D20064A537 /* YJPictureProcessUITests */,
+				50FA2FE81C9FC9D20064A537 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		50FA2FE81C9FC9D20064A537 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50FA2FE71C9FC9D20064A537 /* YJPictureProcess.app */,
+				50FA2FFB1C9FC9D20064A537 /* YJPictureProcessTests.xctest */,
+				50FA30061C9FC9D20064A537 /* YJPictureProcessUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50FA2FE91C9FC9D20064A537 /* YJPictureProcess */ = {
+			isa = PBXGroup;
+			children = (
+				50FA304F1C9FD7F40064A537 /* AppDelegate.swift */,
+				50FA30491C9FD4690064A537 /* YJPictureProcess-Bridging-Header.h */,
+				50FA30361C9FD1700064A537 /* Utility */,
+				50FA30291C9FD1440064A537 /* Controllers */,
+				50FA302E1C9FD1440064A537 /* Models */,
+				50FA302F1C9FD1440064A537 /* Views */,
+				50FA301C1C9FCC850064A537 /* images */,
+				50FA2FEE1C9FC9D20064A537 /* Main.storyboard */,
+				50FA2FF11C9FC9D20064A537 /* Assets.xcassets */,
+				50FA2FF31C9FC9D20064A537 /* LaunchScreen.storyboard */,
+				50FA2FF61C9FC9D20064A537 /* Info.plist */,
+			);
+			path = YJPictureProcess;
+			sourceTree = "<group>";
+		};
+		50FA2FFE1C9FC9D20064A537 /* YJPictureProcessTests */ = {
+			isa = PBXGroup;
+			children = (
+				50FA2FFF1C9FC9D20064A537 /* YJPictureProcessTests.swift */,
+				50FA30011C9FC9D20064A537 /* Info.plist */,
+			);
+			path = YJPictureProcessTests;
+			sourceTree = "<group>";
+		};
+		50FA30091C9FC9D20064A537 /* YJPictureProcessUITests */ = {
+			isa = PBXGroup;
+			children = (
+				50FA300A1C9FC9D20064A537 /* YJPictureProcessUITests.swift */,
+				50FA300C1C9FC9D20064A537 /* Info.plist */,
+			);
+			path = YJPictureProcessUITests;
+			sourceTree = "<group>";
+		};
+		50FA301C1C9FCC850064A537 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				50FA30231C9FCCCA0064A537 /* rotating@2x.png */,
+				50FA301D1C9FCC850064A537 /* cancel@2x.png */,
+				50FA301E1C9FCC850064A537 /* ensure@2x.png */,
+				50FA301F1C9FCC850064A537 /* ico_hand@2x.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		50FA30291C9FD1440064A537 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				50FA302A1C9FD1440064A537 /* BasePublishController.swift */,
+				50FA302B1C9FD1440064A537 /* InPhotoController.swift */,
+				50FA302C1C9FD1440064A537 /* PhotoDealController.swift */,
+				50FA302D1C9FD1440064A537 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		50FA302E1C9FD1440064A537 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		50FA302F1C9FD1440064A537 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				50FA30301C9FD1440064A537 /* InPhotoCllCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		50FA30361C9FD1700064A537 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				50FA304D1C9FD62B0064A537 /* SwiftColors.swift */,
+				50FA304A1C9FD46A0064A537 /* UIView+Extension.h */,
+				50FA304B1C9FD46A0064A537 /* UIView+Extension.m */,
+				50FA30471C9FD4440064A537 /* UIImage+Extension.swift */,
+				50FA30451C9FD2F00064A537 /* Constant.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50FA2FE61C9FC9D20064A537 /* YJPictureProcess */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50FA300F1C9FC9D20064A537 /* Build configuration list for PBXNativeTarget "YJPictureProcess" */;
+			buildPhases = (
+				50FA2FE31C9FC9D20064A537 /* Sources */,
+				50FA2FE41C9FC9D20064A537 /* Frameworks */,
+				50FA2FE51C9FC9D20064A537 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YJPictureProcess;
+			productName = YJPictureProcess;
+			productReference = 50FA2FE71C9FC9D20064A537 /* YJPictureProcess.app */;
+			productType = "com.apple.product-type.application";
+		};
+		50FA2FFA1C9FC9D20064A537 /* YJPictureProcessTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50FA30121C9FC9D20064A537 /* Build configuration list for PBXNativeTarget "YJPictureProcessTests" */;
+			buildPhases = (
+				50FA2FF71C9FC9D20064A537 /* Sources */,
+				50FA2FF81C9FC9D20064A537 /* Frameworks */,
+				50FA2FF91C9FC9D20064A537 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50FA2FFD1C9FC9D20064A537 /* PBXTargetDependency */,
+			);
+			name = YJPictureProcessTests;
+			productName = YJPictureProcessTests;
+			productReference = 50FA2FFB1C9FC9D20064A537 /* YJPictureProcessTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		50FA30051C9FC9D20064A537 /* YJPictureProcessUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50FA30151C9FC9D20064A537 /* Build configuration list for PBXNativeTarget "YJPictureProcessUITests" */;
+			buildPhases = (
+				50FA30021C9FC9D20064A537 /* Sources */,
+				50FA30031C9FC9D20064A537 /* Frameworks */,
+				50FA30041C9FC9D20064A537 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50FA30081C9FC9D20064A537 /* PBXTargetDependency */,
+			);
+			name = YJPictureProcessUITests;
+			productName = YJPictureProcessUITests;
+			productReference = 50FA30061C9FC9D20064A537 /* YJPictureProcessUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50FA2FDF1C9FC9D20064A537 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Ace;
+				TargetAttributes = {
+					50FA2FE61C9FC9D20064A537 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = RUKZ98YF29;
+					};
+					50FA2FFA1C9FC9D20064A537 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = RUKZ98YF29;
+						TestTargetID = 50FA2FE61C9FC9D20064A537;
+					};
+					50FA30051C9FC9D20064A537 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = RUKZ98YF29;
+						TestTargetID = 50FA2FE61C9FC9D20064A537;
+					};
+				};
+			};
+			buildConfigurationList = 50FA2FE21C9FC9D20064A537 /* Build configuration list for PBXProject "YJPictureProcess" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 50FA2FDE1C9FC9D20064A537;
+			productRefGroup = 50FA2FE81C9FC9D20064A537 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50FA2FE61C9FC9D20064A537 /* YJPictureProcess */,
+				50FA2FFA1C9FC9D20064A537 /* YJPictureProcessTests */,
+				50FA30051C9FC9D20064A537 /* YJPictureProcessUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50FA2FE51C9FC9D20064A537 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50FA30201C9FCC850064A537 /* cancel@2x.png in Resources */,
+				50FA30221C9FCC850064A537 /* ico_hand@2x.png in Resources */,
+				50FA2FF51C9FC9D20064A537 /* LaunchScreen.storyboard in Resources */,
+				50FA2FF21C9FC9D20064A537 /* Assets.xcassets in Resources */,
+				50FA30211C9FCC850064A537 /* ensure@2x.png in Resources */,
+				50FA2FF01C9FC9D20064A537 /* Main.storyboard in Resources */,
+				50FA30241C9FCCCA0064A537 /* rotating@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50FA2FF91C9FC9D20064A537 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50FA30041C9FC9D20064A537 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50FA2FE31C9FC9D20064A537 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50FA304C1C9FD46A0064A537 /* UIView+Extension.m in Sources */,
+				50FA30461C9FD2F00064A537 /* Constant.swift in Sources */,
+				50FA30341C9FD1440064A537 /* ViewController.swift in Sources */,
+				50FA30331C9FD1440064A537 /* PhotoDealController.swift in Sources */,
+				50FA30481C9FD4440064A537 /* UIImage+Extension.swift in Sources */,
+				50FA304E1C9FD62B0064A537 /* SwiftColors.swift in Sources */,
+				50FA30311C9FD1440064A537 /* BasePublishController.swift in Sources */,
+				50FA30321C9FD1440064A537 /* InPhotoController.swift in Sources */,
+				50FA30501C9FD7F40064A537 /* AppDelegate.swift in Sources */,
+				50FA30351C9FD1440064A537 /* InPhotoCllCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50FA2FF71C9FC9D20064A537 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50FA30001C9FC9D20064A537 /* YJPictureProcessTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50FA30021C9FC9D20064A537 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50FA300B1C9FC9D20064A537 /* YJPictureProcessUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		50FA2FFD1C9FC9D20064A537 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50FA2FE61C9FC9D20064A537 /* YJPictureProcess */;
+			targetProxy = 50FA2FFC1C9FC9D20064A537 /* PBXContainerItemProxy */;
+		};
+		50FA30081C9FC9D20064A537 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50FA2FE61C9FC9D20064A537 /* YJPictureProcess */;
+			targetProxy = 50FA30071C9FC9D20064A537 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		50FA2FEE1C9FC9D20064A537 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50FA2FEF1C9FC9D20064A537 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		50FA2FF31C9FC9D20064A537 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50FA2FF41C9FC9D20064A537 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		50FA300D1C9FC9D20064A537 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		50FA300E1C9FC9D20064A537 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50FA30101C9FC9D20064A537 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = YJPictureProcess/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.PlayBoy.YJPictureProcess;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "YJPictureProcess/Utility/YJPictureProcess-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		50FA30111C9FC9D20064A537 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = YJPictureProcess/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.PlayBoy.YJPictureProcess;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "YJPictureProcess/Utility/YJPictureProcess-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		50FA30131C9FC9D20064A537 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YJPictureProcessTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.PlayBoy.YJPictureProcessTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YJPictureProcess.app/YJPictureProcess";
+			};
+			name = Debug;
+		};
+		50FA30141C9FC9D20064A537 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YJPictureProcessTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.PlayBoy.YJPictureProcessTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YJPictureProcess.app/YJPictureProcess";
+			};
+			name = Release;
+		};
+		50FA30161C9FC9D20064A537 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YJPictureProcessUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.PlayBoy.YJPictureProcessUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YJPictureProcess;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		50FA30171C9FC9D20064A537 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YJPictureProcessUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.PlayBoy.YJPictureProcessUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YJPictureProcess;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50FA2FE21C9FC9D20064A537 /* Build configuration list for PBXProject "YJPictureProcess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50FA300D1C9FC9D20064A537 /* Debug */,
+				50FA300E1C9FC9D20064A537 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50FA300F1C9FC9D20064A537 /* Build configuration list for PBXNativeTarget "YJPictureProcess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50FA30101C9FC9D20064A537 /* Debug */,
+				50FA30111C9FC9D20064A537 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50FA30121C9FC9D20064A537 /* Build configuration list for PBXNativeTarget "YJPictureProcessTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50FA30131C9FC9D20064A537 /* Debug */,
+				50FA30141C9FC9D20064A537 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50FA30151C9FC9D20064A537 /* Build configuration list for PBXNativeTarget "YJPictureProcessUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50FA30161C9FC9D20064A537 /* Debug */,
+				50FA30171C9FC9D20064A537 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50FA2FDF1C9FC9D20064A537 /* Project object */;
+}
